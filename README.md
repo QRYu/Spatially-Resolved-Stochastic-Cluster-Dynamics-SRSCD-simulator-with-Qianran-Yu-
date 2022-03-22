@@ -58,7 +58,7 @@ A. In the "src" folder:
 - main.cpp: main function
 - makefile
 
-B. example_input.zip
+B. example_input.zip:
 This folder includes the input files to run the example of 3.4 MeV Cu ion irradiation on tungsten materials
 
 ****Input files****
