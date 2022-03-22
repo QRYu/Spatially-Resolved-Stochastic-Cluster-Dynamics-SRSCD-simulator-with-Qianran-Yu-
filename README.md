@@ -62,6 +62,7 @@ B. example_input.zip
 This folder includes the input files to run the example of 3.4 MeV Cu ion irradiation on tungsten materials
 
 ****Input files****
+
 The users need to manually create input files to run specific cases. These input files are:
 - damage.txt: see "damage.cpp/damage()"
 - cpdf#.txt : the number of cpdf files should be equal to the declared number of points (constant.h), see "cpdf.cpp/cpdf()"
@@ -69,3 +70,5 @@ The users need to manually create input files to run specific cases. These input
 - sink.txt: store sink absorption information from previous result, see "SCDWrapper.cpp/restart()"
 
 ****Additional remarks****
+
+The current code is used to simulate irradiation damage. We also used it to simulate Zr-hydride formation, Hydrogen doposition into W and thermal desorption processes. Each case includes different/additional functions. The user is welcomed to contact Qianran for specific version of the SRSCD code.
