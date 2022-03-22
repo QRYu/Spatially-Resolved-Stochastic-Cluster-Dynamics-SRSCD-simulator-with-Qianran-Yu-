@@ -5,4 +5,5 @@ The SRSCD simulation package contains a computer code written in C++. It is an a
 Qianran Yu
 
 Research projects on:
-1. Zr
+1. Zr-Hydride nucleation and growth under LWR fission condition
+2. Hydrogen retention in heavy ion irradiated W materials
