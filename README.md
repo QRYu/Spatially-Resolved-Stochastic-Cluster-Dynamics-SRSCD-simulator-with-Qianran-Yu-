@@ -33,19 +33,15 @@ executable file named "scdexe" will be generated. Run the simulations by using c
 ****Physical mechanisms****
 
 1. (0th) External particle insertion :
-  - Once a particle insertion event is selected, a set of random pka energies are selected based on cpdf (obtained from SRIM) until the sum of the energies reaches total incident energy that is expended on lattice damage. Then the code performs collision cascade damage by generating certain number and/or size of defect clusters with statistical variations. Such statistical variation as well as the fraction of SIA/V clusters being generated comes from MD studies.  
-
+   - Once a particle insertion event is selected, a set of random pka energies are selected based on cpdf (obtained from SRIM) until the sum of the energies reaches total incident energy that is expended on lattice damage. Then the code performs collision cascade damage by generating certain number and/or size of defect clusters with statistical variations. Such statistical variation as well as the fraction of SIA/V clusters being generated comes from MD studies.  
 2. (1st) Monomer dissociation:
-  - single SIA/V atom departs from a cluster.
-
+   - single SIA/V atom departs from a cluster.
 3. (1st) Defect absorption by dislocations (or sinks)
-  - Defects come and get trapped into sinks (such as dislocations, grain boundaries, precipitates etc.)
-  
+   - Defects come and get trapped into sinks (such as dislocations, grain boundaries, precipitates etc.)
 4. (2st) Binary combination:
-  - Two clusters combine and become a larger cluster, or get annhilated. At least one of the reactants need to be mobile.
-
-3. Long term migration (diffusion):
-  - Clusters' long-term migration by Fick's law. 
+   - Two clusters combine and become a larger cluster, or get annhilated. At least one of the reactants need to be mobile.
+5. Long term migration (diffusion):
+   - Clusters' long-term migration by Fick's law. 
 
 ****Program structure****
 -
