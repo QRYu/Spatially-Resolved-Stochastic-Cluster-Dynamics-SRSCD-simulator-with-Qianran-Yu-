@@ -7,3 +7,11 @@ Qianran Yu
 Research projects on:
 1. Zr-Hydride nucleation and growth under LWR fission condition
 2. Hydrogen retention in heavy ion irradiated W materials
+
+Please send an email to the following address for more information:
+
+Qianran Yu (yuqianran0709@gmail.com)
+Jaime Marian(jmarian@ucla.edu)
+
+****Introduction****
+
