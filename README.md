@@ -45,10 +45,15 @@ executable file named "scdexe" will be generated. Run the simulations by using c
 
 ****Program structure****
 A. In the "src" folder:
-- Object.cpp/Object.h: 
-- constant.h:
-- Damage.cpp/Damage.h:
-- CascadeDamage.cpp/CascadeDamage.h:
-- cpdf.cpp/cpdf.h:
-- rvgs.cpp/rvgs.h:
-- 
+- Object.cpp/Object.h: store information of species.
+- constant.h: store parameters. 
+- Damage.cpp/Damage.h: store external particle insertion rates.
+- CascadeDamage.cpp/CascadeDamage.h: functions that process cascade damage.
+- cpdf.cpp/cpdf.h: sample pka energies using cpdf function.
+- rvgs.cpp/rvgs.h: store statistical function.
+- gnuplot_i.h: a library for plotting figures by gnuplot.
+- OneLine.cpp/OneLine.h: compuate 1st, 2nd order reaction and diffusion reaction rates. This class handles the information of one species in one spatial element 
+- Bundle.cpp/Bundle.h: a class that links information of one species in all spatial elements together.
+- SCDWrapper.cpp/SCDWrapper.h: the class that handles the whole rate matrix. It includes ways to select and process events and functions to update rates. There are also output functions. 
+- main.cpp: main function
+- makefile
