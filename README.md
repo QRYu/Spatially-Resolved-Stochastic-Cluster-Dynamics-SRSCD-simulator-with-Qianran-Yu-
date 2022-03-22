@@ -38,8 +38,14 @@ executable file named "scdexe" will be generated. Run the simulations by using c
 2. (1st) Monomer dissociation:
   - single SIA/V atom departs from a cluster.
 
-3. (1st) Defect absorption by dislocations (or sinks):
-
+3. (1st) Defect absorption by dislocations (or sinks)
+  - Defects come and get trapped into sinks (such as dislocations, grain boundaries, precipitates etc.)
+  
 4. (2st) Binary combination:
+  - Two clusters combine and become a larger cluster, or get annhilated. At least one of the reactants need to be mobile.
 
 3. Long term migration (diffusion):
+  - Clusters' long-term migration by Fick's law. 
+
+****Program structure****
+-
