@@ -44,4 +44,11 @@ executable file named "scdexe" will be generated. Run the simulations by using c
    - Clusters' long-term migration by Fick's law. 
 
 ****Program structure****
+A. In the "src" folder:
 - Object.cpp/Object.h: 
+- constant.h:
+- Damage.cpp/Damage.h:
+- CascadeDamage.cpp/CascadeDamage.h:
+- cpdf.cpp/cpdf.h:
+- rvgs.cpp/rvgs.h:
+- 
