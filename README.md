@@ -50,10 +50,20 @@ A. In the "src" folder:
 - Damage.cpp/Damage.h: store external particle insertion rates.
 - CascadeDamage.cpp/CascadeDamage.h: functions that process cascade damage.
 - cpdf.cpp/cpdf.h: sample pka energies using cpdf function.
-- rvgs.cpp/rvgs.h: store statistical function.
+- rvgs.cpp/rvgs.h: store statistical functions.
 - gnuplot_i.h: a library for plotting figures by gnuplot.
 - OneLine.cpp/OneLine.h: compuate 1st, 2nd order reaction and diffusion reaction rates. This class handles the information of one species in one spatial element 
 - Bundle.cpp/Bundle.h: a class that links information of one species in all spatial elements together.
 - SCDWrapper.cpp/SCDWrapper.h: the class that handles the whole rate matrix. It includes ways to select and process events and functions to update rates. There are also output functions. 
 - main.cpp: main function
 - makefile
+
+B. example_input.zip
+This folder includes the input files to run the example of 3.4 MeV Cu ion irradiation on tungsten materials
+
+****Input files***
+The users need to manually create input files to run specific cases. These input files are:
+-damage.txt: see "damage.cpp/damage()"
+-cpdf#.txt : the number of cpdf files should be equal to the declared number of points (constant.h), see "cpdf.cpp/cpdf()"
+-restart.txt : this file is needed when you want to continue the simulation from a previous result, see "SCDWrapper.cpp/restart()"
+-sink.txt: store sink absorption information from previous result, see "SCDWrapper.cpp/restart()"
