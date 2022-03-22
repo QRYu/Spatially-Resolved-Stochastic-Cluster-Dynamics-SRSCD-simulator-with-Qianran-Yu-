@@ -15,6 +15,7 @@ Qianran Yu (yuqianran0709@gmail.com)
 Jaime Marian(jmarian@ucla.edu)
 
 ****Introduction****
+
 The SRSCD is a stochastic variant of the mean field rate theory method that is typically developed to simulate microstructure evolutions during permeation of long-term migrating elements, such as hydrogen, into metallic materials. Please see the following journal papers for detail:
 
 [1] Qianran Yu, Michael Reyes, Nachiket Shah and Jaime Marian, "Kinetic Model of Incipient Hydride Formation in Zr Clad under Dynamic Oxide Growth Conditions", Materials 13(5), 1088 (2020). (link: https://www.mdpi.com/1996-1944/13/5/1088)
