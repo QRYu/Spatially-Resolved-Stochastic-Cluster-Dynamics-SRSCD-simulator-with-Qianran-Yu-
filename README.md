@@ -25,4 +25,7 @@ The SRSCD is a stochastic variant of the mean field rate theory method that is t
 ****How to use****
 Before use: please install gcc/g++ for the newest version (c++11 or newer)
 
-Set up parmeters, check equations in relavant function, and copy input 
+Set up parmeters, check equations in relavant function, and copy/create input files in "src" folder, and then simply type "make". An
+executable file named "scdexe" will be generated. Run the simulations by using command "./scdexe".
+
+****Physical mechanisms****
