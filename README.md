@@ -63,7 +63,7 @@ This folder includes the input files to run the example of 3.4 MeV Cu ion irradi
 
 ****Input files***
 The users need to manually create input files to run specific cases. These input files are:
--damage.txt: see "damage.cpp/damage()"
--cpdf#.txt : the number of cpdf files should be equal to the declared number of points (constant.h), see "cpdf.cpp/cpdf()"
--restart.txt : this file is needed when you want to continue the simulation from a previous result, see "SCDWrapper.cpp/restart()"
--sink.txt: store sink absorption information from previous result, see "SCDWrapper.cpp/restart()"
+- damage.txt: see "damage.cpp/damage()"
+- cpdf#.txt : the number of cpdf files should be equal to the declared number of points (constant.h), see "cpdf.cpp/cpdf()"
+- restart.txt : this file is needed when you want to continue the simulation from a previous result, see "SCDWrapper.cpp/restart()"
+- sink.txt: store sink absorption information from previous result, see "SCDWrapper.cpp/restart()"
