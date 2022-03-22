@@ -2,6 +2,7 @@
 The SRSCD simulation package contains a computer code written in C++. It is an alternative mean field rate theory model that dynamically simulates microstructure (as clusters) evolutions of multi-species systems in solid materials in 1-D space. We have used the code to study Zr-H and W-H system.
 
 ****Developed by****
+
 Qianran Yu
 
 Research projects on:
@@ -23,9 +24,22 @@ The SRSCD is a stochastic variant of the mean field rate theory method that is t
 [2] Qianran Yu, Michael J. Simmonds, Russ. Doerner, George R. Tynan, Li Yang, Brian D. Wirth and Jaime Marian, “Understanding hydrogen retention in damaged tungsten using experimentally-guided models of complex multispecies evolution”, Nuclear Fusion 60, 096003 (2020). (link: https://iopscience.iop.org/article/10.1088/1741-4326/ab9b3c)
 
 ****How to use****
+
 Before use: please install gcc/g++ for the newest version (c++11 or newer)
 
 Set up parmeters, check equations in relavant function, and copy/create input files in "src" folder, and then simply type "make". An
 executable file named "scdexe" will be generated. Run the simulations by using command "./scdexe".
 
 ****Physical mechanisms****
+
+1. (0th) External particle insertion :
+  - Once a particle insertion event is selected, a set of random pka energies are selected based on cpdf (obtained from SRIM) until the sum of the energies reaches total incident energy that is expended on lattice damage. Then the code performs collision cascade damage by generating certain number and/or size of defect clusters with statistical variations. Such statistical variation as well as the fraction of SIA/V clusters being generated comes from MD studies.  
+
+2. (1st) Monomer dissociation:
+  - single SIA/V atom departs from a cluster.
+
+3. (1st) Defect absorption by dislocations (or sinks):
+
+4. (2st) Binary combination:
+
+3. Long term migration (diffusion):
