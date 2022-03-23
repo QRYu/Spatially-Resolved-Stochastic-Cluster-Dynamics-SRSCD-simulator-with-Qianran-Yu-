@@ -38,7 +38,7 @@ executable file named "scdexe" will be generated. Run the simulations by using c
    - single SIA/V atom departs from a cluster.
 3. (1st) Defect absorption by dislocations (or sinks)
    - Defects come and get trapped into sinks (such as dislocations, grain boundaries, precipitates etc.)
-4. (2st) Binary combination:
+4. (2nd) Binary combination:
    - Two clusters combine and become a larger cluster, or get annhilated. At least one of the reactants need to be mobile.
 5. Long term migration (diffusion):
    - Clusters' long-term migration by Fick's law. 
