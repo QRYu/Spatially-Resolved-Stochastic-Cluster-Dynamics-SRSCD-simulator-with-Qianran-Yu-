@@ -44,6 +44,7 @@ executable file named "scdexe" will be generated. Run the simulations by using c
    - Clusters' long-term migration by Fick's law. 
 
 ****Program structure****
+
 A. In the "src" folder:
 - Object.cpp/Object.h: store information of species.
 - constant.h: store parameters. 
